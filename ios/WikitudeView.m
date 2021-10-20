@@ -1,5 +1,5 @@
 #import "WikitudeView.h"
-
+#import "WTArchitectViewDebugDelegate.h"
 #import <WikitudeSDK.h>
 #import <AVKit/AVKit.h>
 #import <React/RCTEventDispatcher.h>
