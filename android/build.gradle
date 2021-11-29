@@ -85,7 +85,7 @@ dependencies {
     def constraintLayoutVersion = project.hasProperty('constraintLayoutVersion') ? project.constraintLayoutVersion : DEFAULT_CONSTRAINT_LAYOUT_VERSION
     //noinspection GradleDynamicVersion
     implementation 'com.facebook.react:react-native:+'  // From node_modules
-    implementation 'com.wikitude:js:9.7.0'
+    implementation 'com.wikitude:js:9.8.0'
     implementation 'com.android.support.constraint:constraint-layout:' + constraintLayoutVersion
 }
 
