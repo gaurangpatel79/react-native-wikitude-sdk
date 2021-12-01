@@ -27,10 +27,7 @@ FOUNDATION_EXPORT const unsigned char WikitudeSDKVersionString[];
 //#import <WikitudeSDK/WTExternalCMMotionManagerDataAccessMode.h>
 
 #import <WikitudeSDK/ArchitectPlugin.hpp>
-<<<<<<< HEAD
-=======
 #import <WikitudeSDK/CameraFocusMode.hpp>
->>>>>>> 7a80d517418492d323a2b0529e1da11bec307318
 #import <WikitudeSDK/CameraFrame.hpp>
 #import <WikitudeSDK/CameraFrameInputPluginModule.hpp>
 #import <WikitudeSDK/CameraFramePlane.hpp>
@@ -44,15 +41,12 @@ FOUNDATION_EXPORT const unsigned char WikitudeSDKVersionString[];
 #import <WikitudeSDK/ErrorHandling.hpp>
 #import <WikitudeSDK/Geometry.hpp>
 #import <WikitudeSDK/ImageTarget.hpp>
-<<<<<<< HEAD
-=======
 #import <WikitudeSDK/ImageTargetType.hpp>
->>>>>>> 7a80d517418492d323a2b0529e1da11bec307318
 #import <WikitudeSDK/ImageTrackingPluginModule.hpp>
 #import <WikitudeSDK/InstantTarget.hpp>
 #import <WikitudeSDK/InstantTrackingPluginModule.hpp>
 #import <WikitudeSDK/InstantTrackingState.hpp>
-#import <WikitudeSDK/InterfaceOrientation.h>
+#import <WikitudeSDK/InterfaceOrientation.hpp>
 #import <WikitudeSDK/InitializationPose.hpp>
 #import <WikitudeSDK/JavaScriptPluginModule.hpp>
 #import <WikitudeSDK/ManagedCameraFrame.hpp>
@@ -78,14 +72,11 @@ FOUNDATION_EXPORT const unsigned char WikitudeSDKVersionString[];
 #import <WikitudeSDK/RenderableCameraFrame.hpp>
 #import <WikitudeSDK/RenderableCameraFrameBucket.hpp>
 #import <WikitudeSDK/RenderingPluginModule.hpp>
-<<<<<<< HEAD
-=======
 #import <WikitudeSDK/SDKEdition.hpp>
->>>>>>> 7a80d517418492d323a2b0529e1da11bec307318
 #import <WikitudeSDK/SensorEvent.hpp>
 #import <WikitudeSDK/State.hpp>
 #import <WikitudeSDK/Timestamp.hpp>
 #import <WikitudeSDK/TrackingParameters.hpp>
 #import <WikitudeSDK/TrackingPluginModule.hpp>
-#import <WikitudeSDK/Unit.h>
+#import <WikitudeSDK/Unit.hpp>
 #import <WikitudeSDK/Vector3.hpp>

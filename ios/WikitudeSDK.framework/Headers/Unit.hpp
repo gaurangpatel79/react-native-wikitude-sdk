@@ -1,5 +1,5 @@
 //
-//  Unit.h
+//  Unit.hpp
 //  CommonLibrary
 //
 //  Created by Andreas Schacherbauer on 14/09/14.
@@ -11,13 +11,13 @@
 
 #ifdef __cplusplus
 
-namespace wikitude { namespace sdk {
-    
-    namespace impl {
-        
+#include "CompilerAttributes.hpp"
+
+
+namespace wikitude::sdk {
         
         template <typename T>
-        class Unit {
+        class WT_EXPORT_API Unit {
             
         public:
             class Millimeter;
@@ -58,17 +58,15 @@ namespace wikitude { namespace sdk {
         };
         
         template <typename T>
-        class Unit<T>::Millimeter : public Unit<T> {
+        class WT_EXPORT_API Unit<T>::Millimeter : public Unit<T> {
         
         public:
             Millimeter() : Unit<T>(0) {};
             Millimeter(T value) : Unit<T>(value) {};
             virtual ~Millimeter() {};
         };
-    }
-    using impl::Unit;
     using Millimeter = Unit<int>::Millimeter;
-}}
+}
 
 #endif /* __cplusplus */
 
